@@ -3,47 +3,75 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>MetaRupee (MRP) - Official Site</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       font-family: Arial, sans-serif;
-      background: #f4f4f4;
+      background: #000;
       margin: 0;
       padding: 0;
-      color: #333;
+      color: #FFD700;
     }
     header {
-      background: #2c3e50;
-      color: white;
+      background: #111;
+      color: #FFD700;
       padding: 20px 0;
       text-align: center;
+    }
+    header img {
+      height: 60px;
+      margin-bottom: 10px;
     }
     section {
       padding: 20px;
       max-width: 1000px;
       margin: auto;
-      background: white;
+      background: #1a1a1a;
       margin-top: 20px;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(255, 215, 0, 0.2);
     }
-    h1, h2 {
-      color: #2c3e50;
+    h1, h2, h3 {
+      color: #FFD700;
     }
     a {
-      color: #2980b9;
+      color: #FFD700;
       text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
     }
     footer {
       text-align: center;
       padding: 20px;
-      background: #2c3e50;
-      color: white;
+      background: #111;
+      color: #FFD700;
       margin-top: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #FFD700;
+      font-size: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #FFD700;
+      color: black;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #e6c200;
     }
   </style>
 </head>
 <body>
   <header>
+    <img src="MetaRupee_Logo.png" alt="MetaRupee Logo">
     <h1>MetaRupee (MRP)</h1>
     <p>Empowering India's Digital Future</p>
   </header>  <section>
@@ -61,8 +89,10 @@
     </ul>
   </section>  <section>
     <h2>Whitepaper</h2>
-    <p>You can download the official whitepaper here:</p>
-    <a href="MetaRupee_Whitepaper.pdf" target="_blank">Download MetaRupee Whitepaper (PDF)</a>
+    <p>Download our official whitepaper:</p>
+    <a href="MetaRupee_Whitepaper.pdf" class="btn" target="_blank">📄 Download MetaRupee Whitepaper</a>
+    <h3>Read Whitepaper Online:</h3>
+    <iframe src="MetaRupee_Whitepaper.pdf" width="100%" height="600px" style="border:2px solid #FFD700; border-radius:8px; margin-top:10px;"></iframe>
   </section>  <section>
     <h2>Roadmap</h2>
     <ul>
@@ -75,8 +105,16 @@
     </ul>
   </section>  <section>
     <h2>Contact & Community</h2>
-    <p>Join us and follow our journey:</p>
-    <ul>
-      <li>Telegram: <a href="https://t.me/+oPh1ifRQ6kEzZTJl" target="_blank">Join Telegram</a></li>
-      <li>Instagram: <a href="https://www.instagram.com/meta.rupee" target="_blank">@meta.rupee</a></li>
-      <li>Twitter: <a href="https://x.com/MetaRupee" target
+    <div class="social-icons">
+      <a href="https://t.me/+oPh1ifRQ6kEzZTJl" target="_blank"><i class="fab fa-telegram"></i></a>
+      <a href="https://www.instagram.com/meta.rupee" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://x.com/MetaRupee" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://www.facebook.com/share/1BwfoBZNDr/" target="_blank"><i class="fab fa-facebook"></i></a>
+      <a href="https://youtube.com/@metarupee" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <p>Email: <a href="mailto:matarupeemrp@gmail.com">matarupeemrp@gmail.com</a></p>
+  </section>  <footer>
+    &copy; 2025 MetaRupee (MRP) | All Rights Reserved
+  </footer>
+</body>
+</html>
