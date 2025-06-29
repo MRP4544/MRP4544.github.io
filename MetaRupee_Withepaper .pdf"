@@ -1,0 +1,8 @@
+<section>
+  <h2>Whitepaper</h2>
+  <p>Download our official whitepaper:</p>
+  <a href="MetaRupee_Whitepaper.pdf" class="btn" target="_blank">📄 Download MetaRupee Whitepaper</a>
+  
+  <h3>Read Whitepaper Online:</h3>
+  <iframe src="MetaRupee_Whitepaper.pdf" width="100%" height="600px" style="border:2px solid #FFD700; border-radius:8px; margin-top:10px;"></iframe>
+</section>
